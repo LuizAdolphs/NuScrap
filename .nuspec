@@ -13,7 +13,7 @@
     <owners>Luiz Adolphs</owners>
 
     <!-- License and project URLs provide links for the gallery -->
-    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>http://github.com/contoso/UsefulStuff</projectUrl>
 
     <!-- The icon is used in Visual Studio's package manager UI -->
@@ -21,7 +21,7 @@
 
     <!-- If true, this value prompts the user to accept the license when
             installing the package. -->
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <!-- Any details about this particular release -->
     <releaseNotes>Bug fixes and performance improvements</releaseNotes>
