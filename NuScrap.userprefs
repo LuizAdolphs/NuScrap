@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{8C017B01-95B8-4E77-8E08-81B2D8A26C8F}|Default">
+  <MonoDevelop.Ide.ItemProperties.NuScrap PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NuScrap/.nuspec">
+    <Files>
+      <File FileName="NuScrap/Context.cs" Line="94" Column="135" />
+      <File FileName="NuScrap/Link.cs" Line="3" Column="11" />
+      <File FileName="NuScrap/Account.cs" Line="6" Column="12" />
+      <File FileName="NuScrap/PaymentMethod.cs" Line="5" Column="12" />
+      <File FileName="NuScrap/Card.cs" Line="6" Column="12" />
+      <File FileName="NuScrap/Balances.cs" Line="5" Column="12" />
+      <File FileName="NuScrap/JsonConverters.cs" Line="1" Column="1" />
+      <File FileName="NuScrap/AccountResponse.cs" Line="5" Column="5" />
+      <File FileName="NuScrap/.nuspec" Line="24" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
