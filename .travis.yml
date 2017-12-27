@@ -1,6 +1,7 @@
 language: csharp
 solution: NuScrap.csproj
 install:
+  - nuget
   - nuget restore NuScrap.csproj -Verbosity detailed
 deploy:
   provider: script
