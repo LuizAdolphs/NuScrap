@@ -53,7 +53,6 @@ namespace NuScrap
         {
             var config = Configuration
                 .Default
-                .WithJavaScript()
                 .WithDefaultLoader(setup => setup.IsResourceLoadingEnabled = true);
 
             var address = "https://app.nubank.com.br/#/login";
