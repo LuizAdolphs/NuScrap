@@ -1,5 +1,7 @@
 language: csharp
 solution: NuScrap.csproj
+install:
+  - nuget restore NuScrap.sln
 deploy:
   provider: script
   script: chmod +x ./deploy/deploy.sh && ./deploy/deploy.sh $NUGET_API_KEY $NUGET_SOURCE
