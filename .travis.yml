@@ -1,7 +1,8 @@
 language: csharp
 solution: NuScrap.csproj
+install:
+  - msbuild /t:Restore NuScrap.csproj
 script:
-  - nuget restore NuScrap.csproj -Verbosity detailed
   - msbuild /p:Configuration=Release NuScrap.csproj
 deploy:
   provider: script
