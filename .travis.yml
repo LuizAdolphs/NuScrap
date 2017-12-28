@@ -1,9 +1,11 @@
 language: csharp
-solution: NuScrap.csproj
+dist: trusty
+mono: none
+dotnet: 1.0.1
 install:
-  - msbuild /t:Restore NuScrap.csproj
+  - dotnet restore 
 script:
-  - msbuild /p:Configuration=Release NuScrap.csproj
+  - dotnet build
 deploy:
   provider: script
   script: chmod +x ./deploy/deploy.sh && ./deploy/deploy.sh $NUGET_API_KEY $NUGET_SOURCE
