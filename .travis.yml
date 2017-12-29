@@ -6,6 +6,6 @@ script:
   - dotnet build
 deploy:
   provider: script
-  script: chmod +x ./deploy.sh && ./deploy.sh $NUGET_API_KEY $NUGET_SOURCE
+  script: dotnet restore && dotnet build && chmod +x ./deploy.sh && ./deploy.sh $NUGET_API_KEY $NUGET_SOURCE
   on:
     branch: master
